@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net472</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Facepunch.Console, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Facepunch.Console.dll</HintPath>
+      </Reference>
+      <Reference Include="Facepunch.Network, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Facepunch.Network.dll</HintPath>
+      </Reference>
+      <Reference Include="Facepunch.Rcon, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Facepunch.Rcon.dll</HintPath>
+      </Reference>
+      <Reference Include="Facepunch.UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Facepunch.UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="LZ4, Version=1.0.10.93, Culture=neutral, PublicKeyToken=62e1b5ec1eec9bdd">
+        <HintPath>Z:\job\RustDedicated_Data\LZ4.dll</HintPath>
+      </Reference>
+      <Reference Include="LZ4pn, Version=1.0.10.93, Culture=neutral, PublicKeyToken=62e1b5ec1eec9bdd">
+        <HintPath>Z:\job\RustDedicated_Data\LZ4pn.dll</HintPath>
+      </Reference>
+      <Reference Include="Mono.Data.Tds, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Mono.Data.Tds.dll</HintPath>
+      </Reference>
+      <Reference Include="MySql.Data, Version=6.9.5.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\MySql.Data.dll</HintPath>
+      </Reference>
+      <Reference Include="NewAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\NewAssembly.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.Core, Version=2.0.4006.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.CSharp, Version=2.0.4046.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.MySql, Version=2.0.3760.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.MySql.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.References, Version=2.0.3779.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.References.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.Rust, Version=2.0.5419.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.Rust.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.SQLite, Version=2.0.3762.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.SQLite.dll</HintPath>
+      </Reference>
+      <Reference Include="Oxide.Unity, Version=2.0.3772.0, Culture=neutral, PublicKeyToken=null" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\Oxide.Unity.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Configuration.Install, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Configuration.Install.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Data.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Data.SQLite, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Data.SQLite.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Drawing.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Runtime.Serialization.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Condition="'$(TargetFramework)' == 'net471' OR '$(TargetFramework)' == 'net472'">
+        <HintPath>Z:\job\RustDedicated_Data\Managed\System.Transactions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="K4os.Compression.LZ4" Version="1.2.16" />
+      <PackageReference Include="K4os.Compression.LZ4.Legacy" Version="1.2.16" />
+      <PackageReference Include="K4os.Compression.LZ4.Streams" Version="1.2.16" />
+    </ItemGroup>
+
+</Project>
