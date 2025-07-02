@@ -1,4 +1,4 @@
-﻿// Reference: K4os.Compression.LZ4
+// Reference: K4os.Compression.LZ4
 // Reference: K4os.Compression.LZ4.Streams
 // Reference: K4os.Compression.LZ4.Legacy
 // Reference: K4os.Hash.xxHash
@@ -36,6 +36,7 @@ namespace Oxide.Plugins
                     using (var binaryReader = new BinaryReader(fileStream))
                     {
                         binaryReader.ReadUInt32();
+                        binaryReader.ReadUInt64();
                         Puts("Success!");
                         var settings = new LZ4EncoderSettings();
                         settings.ChainBlocks = false;
@@ -51,7 +52,8 @@ namespace Oxide.Plugins
             }
             catch (System.Exception e)
             {
-                Puts(e.Message);
+                Puts($"ERROR: {e.GetType().Name}: {e.Message}");
+                Puts(e.StackTrace);
             }
         }
         
